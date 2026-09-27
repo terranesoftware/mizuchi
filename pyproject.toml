@@ -1,0 +1,15 @@
+[project]
+name = "mizuchi"
+version = "0.1.0"
+authors = [
+    { name = "ZA1815", email = "zaahme18@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+mizuchi = "mizuchi:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
