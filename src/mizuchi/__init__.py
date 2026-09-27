@@ -8,7 +8,7 @@ from mizuchi.inquiry import Inquiry
 from mizuchi.research import Research
 
 
-@dataclass
+@dataclass(slots=True)
 class Koine:
     """A structured record of quantitative investigation."""
 

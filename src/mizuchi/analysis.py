@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
 
-@dataclass
+@dataclass(slots=True)
 class Analysis:
     pass
